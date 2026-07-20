@@ -23,7 +23,7 @@ body:
   - type: input
     id: version
     attributes:
-      label: Codex or tool version
+      label: AI agent or tool version
       placeholder: Version or build, if known
   - type: textarea
     id: description

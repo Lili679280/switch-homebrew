@@ -1,12 +1,12 @@
 # Switch Homebrew Skill
 
-[![Codex Skill](https://img.shields.io/badge/Codex-Skill-111827?logo=openai&logoColor=white)](https://github.com/Lili679280/switch-homebrew)
+[![AI Skill](https://img.shields.io/badge/AI-Skill-111827)](https://github.com/Lili679280/switch-homebrew)
 [![libnx](https://img.shields.io/badge/libnx-v4.11.1-2563eb)](https://github.com/switchbrew/libnx/releases/tag/v4.11.1)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 **English** | [简体中文](README.zh-CN.md)
 
-A self-contained Codex skill for Nintendo Switch homebrew development with libnx and devkitPro. It gives Codex versioned, local references for writing and checking C/C++ homebrew code instead of relying on guessed APIs or machine-specific paths.
+A self-contained AI skill for Nintendo Switch homebrew development with libnx and devkitPro. It gives coding agents versioned, local references for writing and checking C/C++ homebrew code instead of relying on guessed APIs or machine-specific paths.
 
 > This repository is an unofficial community project. It is not affiliated with, sponsored by, or endorsed by Nintendo.
 
@@ -28,7 +28,7 @@ The skill automatically applies when a request involves Switch homebrew, libnx, 
 
 ## Why This Skill Exists
 
-Switch homebrew APIs are easy to misremember, and current online documentation may not match the version used by a project. This skill keeps its reference material inside the repository and instructs Codex to verify API signatures against the bundled headers before generating code.
+Switch homebrew APIs are easy to misremember, and current online documentation may not match the version used by a project. This skill keeps its reference material inside the repository and instructs the coding agent to verify API signatures against the bundled headers before generating code.
 
 - No hard-coded path to a particular computer
 - No network lookup required for the bundled references
@@ -37,7 +37,7 @@ Switch homebrew APIs are easy to misremember, and current online documentation m
 
 ## How It Works
 
-1. `SKILL.md` tells Codex when and how to handle Switch homebrew tasks.
+1. `SKILL.md` tells the coding agent when and how to handle Switch homebrew tasks.
 2. `references/api-index.md` directs it to the relevant bundled libnx header.
 3. The header under `references/libnx/` is treated as the API source of truth.
 4. `references/examples-map.md` directs it to an official bundled example when a usage pattern is needed.
