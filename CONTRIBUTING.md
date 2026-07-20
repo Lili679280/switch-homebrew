@@ -12,3 +12,34 @@ Before submitting a change:
 6. Explain which files changed and how the result was verified.
 
 When updating bundled dependencies, pin an explicit release or commit and update all version references.
+
+## Commit Convention
+
+Use Conventional Commits so the history clearly identifies the type and scope of each change:
+
+```text
+type(scope): short description
+```
+
+Common types are `feat`, `fix`, `docs`, `chore`, and `refactor`. Prefer one of these repository scopes when applicable:
+
+| Scope | Use for |
+|---|---|
+| `skill` | `SKILL.md` behavior or guidance |
+| `readme` | Project overview and installation documentation |
+| `references` | API indexes and reference documentation |
+| `libnx` | Bundled libnx updates |
+| `examples` | Bundled switch-examples updates |
+| `font` | Button icon font and mapping guidance |
+| `release` | Version preparation and release notes |
+
+Examples:
+
+```text
+feat(skill): add SDL2 rendering guidance
+fix(references): correct framebuffer header path
+chore(libnx): update bundled libnx release
+docs(release): add v1.1.0 release notes
+```
+
+Keep each commit focused on one logical change and write the description in the imperative mood.

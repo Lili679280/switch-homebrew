@@ -1,6 +1,7 @@
 # Switch Homebrew Skill
 
 [![AI Skill](https://img.shields.io/badge/AI-Skill-111827)](https://github.com/Lili679280/switch-homebrew)
+[![Latest Release](https://img.shields.io/github/v/release/Lili679280/switch-homebrew?display_name=tag&label=release)](https://github.com/Lili679280/switch-homebrew/releases/latest)
 [![libnx](https://img.shields.io/badge/libnx-v4.11.1-2563eb)](https://github.com/switchbrew/libnx/releases/tag/v4.11.1)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
@@ -109,7 +110,7 @@ Bundled upstream material should only be replaced deliberately. When updating li
 
 ## Contributing
 
-Contributions that improve correctness, navigation, or subsystem coverage are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request. Security-sensitive reports should follow [SECURITY.md](SECURITY.md).
+Contributions that improve correctness, navigation, or subsystem coverage are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request. Version history is recorded in [CHANGELOG.md](CHANGELOG.md), and security-sensitive reports should follow [SECURITY.md](SECURITY.md).
 
 ## License and Third-Party Material
 

@@ -1,6 +1,7 @@
 # Switch Homebrew Skill
 
 [![AI Skill](https://img.shields.io/badge/AI-Skill-111827)](https://github.com/Lili679280/switch-homebrew)
+[![最新版本](https://img.shields.io/github/v/release/Lili679280/switch-homebrew?display_name=tag&label=release)](https://github.com/Lili679280/switch-homebrew/releases/latest)
 [![libnx](https://img.shields.io/badge/libnx-v4.11.1-2563eb)](https://github.com/switchbrew/libnx/releases/tag/v4.11.1)
 [![许可证：MIT](https://img.shields.io/badge/许可证-MIT-green.svg)](LICENSE)
 
@@ -109,7 +110,7 @@ git pull
 
 ## 参与贡献
 
-欢迎提交能够提高正确性、导航体验或子系统覆盖范围的改进。提交 Pull Request 前请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)，安全相关问题请按照 [SECURITY.md](SECURITY.md) 说明报告。
+欢迎提交能够提高正确性、导航体验或子系统覆盖范围的改进。提交 Pull Request 前请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)，版本记录请查看 [CHANGELOG.md](CHANGELOG.md)，安全相关问题请按照 [SECURITY.md](SECURITY.md) 说明报告。
 
 ## 许可证与第三方内容
 
