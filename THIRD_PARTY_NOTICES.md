@@ -5,7 +5,7 @@ The root MIT License applies only to the original skill instructions, indexes, a
 ### libnx
 
 - Project: `switchbrew/libnx`
-- Bundled version: v4.11.1 release
+- Bundled version: v4.12.0 official signed tag (`7644c9b26099aa2d2145bc72a21ee24190e92085`)
 - Source: https://github.com/switchbrew/libnx
 - License: ISC-style license
 - License file: `references/libnx/LICENSE.md`

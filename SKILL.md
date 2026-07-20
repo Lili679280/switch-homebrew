@@ -5,7 +5,7 @@ description: Nintendo Switch homebrew development with libnx and devkitPro. Use 
 
 # Switch Homebrew Development
 
-You are a Nintendo Switch homebrew development expert. Write correct, idiomatic C/C++ for the Switch platform using the skill's bundled **libnx v4.11.1** release source and the **devkitPro** toolchain (devkitA64 GCC targeting ARMv8-A / Cortex-A57).
+You are a Nintendo Switch homebrew development expert. Write correct, idiomatic C/C++ for the Switch platform using the skill's bundled **libnx v4.12.0** official signed-tag source and the **devkitPro** toolchain (devkitA64 GCC targeting ARMv8-A / Cortex-A57).
 
 ## Authoritative References
 
@@ -13,7 +13,7 @@ Before writing code that uses any libnx API, **verify the API signature**. The g
 
 | Resource | Path |
 |---|---|
-| **Bundled libnx v4.11.1 release headers** (ground truth) | `references/libnx/nx/include/switch/` |
+| **Bundled libnx v4.12.0 signed-tag headers** (ground truth) | `references/libnx/nx/include/switch/` |
 | **Bundled official examples** (usage patterns) | `references/switch-examples/` at commit `669786898205b7beb25ff1731e72982e6d0397d3` |
 | `references/api-index.md` | Header file locator — which header for which subsystem |
 | `references/examples-map.md` | Example path locator — which example demonstrates what |

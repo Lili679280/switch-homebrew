@@ -2,7 +2,7 @@
 
 [![AI Skill](https://img.shields.io/badge/AI-Skill-111827)](https://github.com/Lili679280/switch-homebrew)
 [![Latest Release](https://img.shields.io/github/v/release/Lili679280/switch-homebrew?display_name=tag&label=release)](https://github.com/Lili679280/switch-homebrew/releases/latest)
-[![libnx](https://img.shields.io/badge/libnx-v4.11.1-2563eb)](https://github.com/switchbrew/libnx/releases/tag/v4.11.1)
+[![libnx](https://img.shields.io/badge/libnx-v4.12.0-2563eb)](https://github.com/switchbrew/libnx/tree/v4.12.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 **English** | [简体中文](README.zh-CN.md)
@@ -48,7 +48,7 @@ Switch homebrew APIs are easy to misremember, and current online documentation m
 
 | Component | Bundled version | Purpose |
 |---|---:|---|
-| [libnx](https://github.com/switchbrew/libnx) | v4.11.1 release | Authoritative headers, source, and code style |
+| [libnx](https://github.com/switchbrew/libnx) | v4.12.0 signed tag | Authoritative headers, source, and code style |
 | [switch-examples](https://github.com/switchbrew/switch-examples) | `669786898205b7beb25ff1731e72982e6d0397d3` | Official usage patterns |
 | `NintendoSwitchButtonIcons.ttf` | bundled asset | Switch-style system button prompts |
 | API and example indexes | repository version | Fast navigation to the correct bundled files |

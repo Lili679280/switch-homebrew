@@ -1,7 +1,7 @@
 # libnx API Index — Subsystem → Key Headers
 
 All paths relative to libnx root:
-Bundled libnx v4.11.1 release header root: `references/libnx/nx/include/switch/`. Resolve every entry below relative to this skill directory. Do not use an external libnx installation unless the user explicitly requests another version.
+Bundled libnx v4.12.0 signed-tag header root: `references/libnx/nx/include/switch/`. Resolve every entry below relative to this skill directory. Do not use an external libnx installation unless the user explicitly requests another version.
 
 The master header `<switch.h>` includes everything. This index helps locate the relevant header to verify specific API signatures before writing code.
 

@@ -10,7 +10,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and
 
 ### Added
 
-- Bundled libnx v4.11.1 release sources and headers.
+- Bundled libnx v4.12.0 official signed-tag sources and headers.
 - Bundled official switch-examples at commit `669786898205b7beb25ff1731e72982e6d0397d3`.
 - API and example navigation indexes for bundled references.
 - Nintendo Switch button icon TTF with rendering and mapping guidance.
