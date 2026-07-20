@@ -1,0 +1,47 @@
+name: Bug report
+description: Report incorrect guidance, a broken reference, or a bundled asset problem.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for helping improve the skill. Do not include credentials or private data.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - SKILL.md guidance
+        - libnx API index
+        - switch-examples index
+        - Button icon font
+        - Bundled dependency
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Codex or tool version
+      placeholder: Version or build, if known
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem description
+      description: Explain what happened and what you expected.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction prompt or steps
+      description: Provide the smallest prompt or sequence that reproduces the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Relevant output
+      description: Paste non-sensitive logs, generated code, or paths within this repository.
+      render: text

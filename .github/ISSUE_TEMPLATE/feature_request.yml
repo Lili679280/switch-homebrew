@@ -1,0 +1,25 @@
+name: Feature request
+description: Suggest a new subsystem, workflow, example, or reference improvement.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use case
+      description: Describe the Switch homebrew task this would improve.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Explain the desired skill behavior or reference material.
+    validations:
+      required: true
+  - type: input
+    id: upstream
+    attributes:
+      label: Authoritative upstream reference
+      description: Link to the relevant libnx header, official example, or specification when available.

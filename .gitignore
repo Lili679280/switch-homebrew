@@ -1,0 +1,12 @@
+# Local editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local scratch and build output
+build/
+*.nro
+*.nso
+*.elf
+*.map
